@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply antialiased bg-gray-100;
+  }
+  .text-muted {
+    @apply text-gray-500;
+  }
+}

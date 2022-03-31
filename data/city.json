@@ -1,0 +1,160 @@
+{
+  "Headline": {
+    "EffectiveDate": "2022-03-31T19:00:00+05:30",
+    "EffectiveEpochDate": 1648733400,
+    "Severity": 2,
+    "Text": "Dummy Air quality will be hazardous Thursday night",
+    "Category": "air quality",
+    "EndDate": "2022-04-01T07:00:00+05:30",
+    "EndEpochDate": 1648776600,
+    "MobileLink": "http://www.accuweather.com/en/in/delhi/202396/daily-weather-forecast/202396?lang=en-us",
+    "Link": "http://www.accuweather.com/en/in/delhi/202396/daily-weather-forecast/202396?lang=en-us"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2022-03-31T07:00:00+05:30",
+      "EpochDate": 1648690200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 69,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 101,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 5,
+        "IconPhrase": "Hazy sunshine",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Clear",
+        "HasPrecipitation": false
+      },
+      "Sources": ["AccuWeather"],
+      "MobileLink": "http://www.accuweather.com/en/in/delhi/202396/daily-weather-forecast/202396?day=1&lang=en-us",
+      "Link": "http://www.accuweather.com/en/in/delhi/202396/daily-weather-forecast/202396?day=1&lang=en-us"
+    },
+    {
+      "Date": "2022-04-01T07:00:00+05:30",
+      "EpochDate": 1648776600,
+      "Temperature": {
+        "Minimum": {
+          "Value": 69,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 100,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 5,
+        "IconPhrase": "Hazy sunshine",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Clear",
+        "HasPrecipitation": false
+      },
+      "Sources": ["AccuWeather"],
+      "MobileLink": "http://www.accuweather.com/en/in/delhi/202396/daily-weather-forecast/202396?day=2&lang=en-us",
+      "Link": "http://www.accuweather.com/en/in/delhi/202396/daily-weather-forecast/202396?day=2&lang=en-us"
+    },
+    {
+      "Date": "2022-04-02T07:00:00+05:30",
+      "EpochDate": 1648863000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 70,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 101,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 5,
+        "IconPhrase": "Hazy sunshine",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Clear",
+        "HasPrecipitation": false
+      },
+      "Sources": ["AccuWeather"],
+      "MobileLink": "http://www.accuweather.com/en/in/delhi/202396/daily-weather-forecast/202396?day=3&lang=en-us",
+      "Link": "http://www.accuweather.com/en/in/delhi/202396/daily-weather-forecast/202396?day=3&lang=en-us"
+    },
+    {
+      "Date": "2022-04-03T07:00:00+05:30",
+      "EpochDate": 1648949400,
+      "Temperature": {
+        "Minimum": {
+          "Value": 72,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 102,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 5,
+        "IconPhrase": "Hazy sunshine",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Clear",
+        "HasPrecipitation": false
+      },
+      "Sources": ["AccuWeather"],
+      "MobileLink": "http://www.accuweather.com/en/in/delhi/202396/daily-weather-forecast/202396?day=4&lang=en-us",
+      "Link": "http://www.accuweather.com/en/in/delhi/202396/daily-weather-forecast/202396?day=4&lang=en-us"
+    },
+    {
+      "Date": "2022-04-04T07:00:00+05:30",
+      "EpochDate": 1649035800,
+      "Temperature": {
+        "Minimum": {
+          "Value": 70,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 102,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 1,
+        "IconPhrase": "Sunny",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Clear",
+        "HasPrecipitation": false
+      },
+      "Sources": ["AccuWeather"],
+      "MobileLink": "http://www.accuweather.com/en/in/delhi/202396/daily-weather-forecast/202396?day=5&lang=en-us",
+      "Link": "http://www.accuweather.com/en/in/delhi/202396/daily-weather-forecast/202396?day=5&lang=en-us"
+    }
+  ]
+}
