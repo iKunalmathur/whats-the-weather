@@ -16,7 +16,7 @@ export const getStaticPaths = async () => {
 // getStaticProps with ISR
 export const getStaticProps = async ({ params }) => {
   let city;
-  if (cityData && env.NODE_ENV !== 'development') {
+  if (cityData && env.NODE_ENV === 'development') {
     city = cityData;
   } else {
     const { resData } = await fetchHandler({
