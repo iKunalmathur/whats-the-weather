@@ -16,7 +16,7 @@ export const getStaticPaths = async () => {
 // getStaticProps with ISR
 export const getStaticProps = async ({ params }) => {
   let city;
-  if (cityData && env.NODE_ENV === 'development') {
+  if (cityData && env.NODE_ENV !== 'development') {
     city = cityData;
   } else {
     const { resData } = await fetchHandler({
@@ -26,6 +26,9 @@ export const getStaticProps = async ({ params }) => {
       }
     });
     city = resData;
+    if (city?.Code == 'ServiceUnavailable') {
+      city = cityData;
+    }
     // console.log({ city });
   }
   return {
