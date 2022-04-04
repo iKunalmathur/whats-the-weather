@@ -12,10 +12,12 @@
 
 ### Step 1 - Clone Repo or download zip
 
+Click on the "code" green button. 
+
 ### Step 2 - Install packages and dependencies
 
 ```
-$ npm install && npm run dev
+$ npm install
 ```
 
 ### Step 3 - Create .env
