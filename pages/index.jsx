@@ -36,6 +36,9 @@ export const getStaticProps = async () => {
       }
     });
     cities = resData;
+    if (cities?.Code == 'ServiceUnavailable') {
+      cities = citiesData;
+    }
     // console.log({ cities });
   }
 
